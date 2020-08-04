@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/utils/count/count.c
+stdlib.h
+-
+stdio.h
+-
+

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/include/clang-c/CXString.h
+clang-c/Platform.h
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/include/clang-c/clang-c/Platform.h
+
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/include/clang-c/Index.h
+time.h
+-
+clang-c/Platform.h
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/include/clang-c/clang-c/Platform.h
+clang-c/CXString.h
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/include/clang-c/clang-c/CXString.h
+
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/include/clang-c/Platform.h
+
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/tools/c-arcmt-test/c-arcmt-test.c
+clang-c/Index.h
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-3.4/tools/clang/tools/c-arcmt-test/clang-c/Index.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+io.h
+-
+fcntl.h
+-
+

@@ -1,0 +1,2429 @@
+The system is: Linux - 4.4.0-148-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/3.17.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/3.17.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d76f/fast && /usr/bin/make  -f CMakeFiles/cmTC_4d76f.dir/build.make CMakeFiles/cmTC_4d76f.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d76f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4d76f.dir/testCCompiler.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4d76f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d76f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4d76f.dir/testCCompiler.c.o  -o cmTC_4d76f 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02868/fast && /usr/bin/make  -f CMakeFiles/cmTC_02868.dir/build.make CMakeFiles/cmTC_02868.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccqwPmYo.s
+GNU C (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 86cf30845a04475f14fc42e09e2307c1
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o /tmp/ccqwPmYo.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_02868
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02868.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o  -o cmTC_02868 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_02868' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_02868 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/4.8/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_02868/fast && /usr/bin/make  -f CMakeFiles/cmTC_02868.dir/build.make CMakeFiles/cmTC_02868.dir/build]
+  ignore line: [make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccqwPmYo.s]
+  ignore line: [GNU C (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5  GMP version 5.1.3  MPFR version 3.1.3  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5  GMP version 5.1.3  MPFR version 3.1.3  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 86cf30845a04475f14fc42e09e2307c1]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o /tmp/ccqwPmYo.s]
+  ignore line: [GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_02868]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02868.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o  -o cmTC_02868 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_02868' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_02868 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_02868] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTC_02868.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4828/fast && /usr/bin/make  -f CMakeFiles/cmTC_d4828.dir/build.make CMakeFiles/cmTC_d4828.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4828.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d4828.dir/testCXXCompiler.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d4828
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4828.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d4828.dir/testCXXCompiler.cxx.o  -o cmTC_d4828 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_023ad/fast && /usr/bin/make  -f CMakeFiles/cmTC_023ad.dir/build.make CMakeFiles/cmTC_023ad.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccJJWXSs.s
+GNU C++ (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/4.8"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/4.8
+ /usr/include/x86_64-linux-gnu/c++/4.8
+ /usr/include/c++/4.8/backward
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++ (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.5, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cc87c1e9528d6791da80a5fe1b196d34
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJJWXSs.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_023ad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_023ad.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_023ad 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_023ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_023ad /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/4.8]
+    add: [/usr/include/x86_64-linux-gnu/c++/4.8]
+    add: [/usr/include/c++/4.8/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/4.8/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/4.8] ==> [/usr/include/c++/4.8]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/4.8] ==> [/usr/include/x86_64-linux-gnu/c++/4.8]
+  collapse include dir [/usr/include/c++/4.8/backward] ==> [/usr/include/c++/4.8/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/4.8;/usr/include/x86_64-linux-gnu/c++/4.8;/usr/include/c++/4.8/backward;/usr/lib/gcc/x86_64-linux-gnu/4.8/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_023ad/fast && /usr/bin/make  -f CMakeFiles/cmTC_023ad.dir/build.make CMakeFiles/cmTC_023ad.dir/build]
+  ignore line: [make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccJJWXSs.s]
+  ignore line: [GNU C++ (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5  GMP version 5.1.3  MPFR version 3.1.3  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/4.8"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/4.8]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/4.8]
+  ignore line: [ /usr/include/c++/4.8/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (Ubuntu 4.8.5-4ubuntu8~14.04.2) version 4.8.5 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5  GMP version 5.1.3  MPFR version 3.1.3  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cc87c1e9528d6791da80a5fe1b196d34]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJJWXSs.s]
+  ignore line: [GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_023ad]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_023ad.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_023ad ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-4ubuntu8~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 (Ubuntu 4.8.5-4ubuntu8~14.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_023ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_023ad /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_023ad] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTC_023ad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_971fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_971fb.dir/build.make CMakeFiles/cmTC_971fb.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_971fb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_971fb.dir/feature_tests.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_971fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_971fb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_971fb.dir/feature_tests.cxx.o  -o cmTC_971fb 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+Determining if the include file cxxabi.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae942/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae942.dir/build.make CMakeFiles/cmTC_ae942.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae942.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ae942.dir/CheckIncludeFile.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ae942
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae942.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ae942.dir/CheckIncludeFile.cxx.o  -o cmTC_ae942 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5439/fast && /usr/bin/make  -f CMakeFiles/cmTC_d5439.dir/build.make CMakeFiles/cmTC_d5439.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5439.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d5439.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d5439
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5439.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d5439.dir/CheckIncludeFile.c.o  -o cmTC_d5439 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c98e8/fast && /usr/bin/make  -f CMakeFiles/cmTC_c98e8.dir/build.make CMakeFiles/cmTC_c98e8.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c98e8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c98e8.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c98e8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c98e8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c98e8.dir/CheckIncludeFile.c.o  -o cmTC_c98e8 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0d7a/fast && /usr/bin/make  -f CMakeFiles/cmTC_f0d7a.dir/build.make CMakeFiles/cmTC_f0d7a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0d7a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f0d7a.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f0d7a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0d7a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f0d7a.dir/CheckIncludeFile.c.o  -o cmTC_f0d7a 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_915fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_915fc.dir/build.make CMakeFiles/cmTC_915fc.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_915fc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_915fc.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_915fc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_915fc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_915fc.dir/CheckIncludeFile.c.o  -o cmTC_915fc 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_889f1/fast && /usr/bin/make  -f CMakeFiles/cmTC_889f1.dir/build.make CMakeFiles/cmTC_889f1.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_889f1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_889f1.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_889f1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_889f1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_889f1.dir/CheckIncludeFile.c.o  -o cmTC_889f1 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40e84/fast && /usr/bin/make  -f CMakeFiles/cmTC_40e84.dir/build.make CMakeFiles/cmTC_40e84.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40e84.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_40e84.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_40e84
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40e84.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_40e84.dir/CheckIncludeFile.c.o  -o cmTC_40e84 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58a4d/fast && /usr/bin/make  -f CMakeFiles/cmTC_58a4d.dir/build.make CMakeFiles/cmTC_58a4d.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58a4d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_58a4d.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_58a4d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58a4d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_58a4d.dir/CheckIncludeFile.c.o  -o cmTC_58a4d 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5a32a/fast && /usr/bin/make  -f CMakeFiles/cmTC_5a32a.dir/build.make CMakeFiles/cmTC_5a32a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a32a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5a32a.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5a32a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a32a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5a32a.dir/CheckIncludeFile.c.o  -o cmTC_5a32a 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50438/fast && /usr/bin/make  -f CMakeFiles/cmTC_50438.dir/build.make CMakeFiles/cmTC_50438.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50438.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_50438.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_50438
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50438.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_50438.dir/CheckIncludeFile.c.o  -o cmTC_50438 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8d32/fast && /usr/bin/make  -f CMakeFiles/cmTC_d8d32.dir/build.make CMakeFiles/cmTC_d8d32.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8d32.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8d32.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8d32
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8d32.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d8d32.dir/CheckIncludeFile.c.o  -o cmTC_d8d32 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bdeb2/fast && /usr/bin/make  -f CMakeFiles/cmTC_bdeb2.dir/build.make CMakeFiles/cmTC_bdeb2.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdeb2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bdeb2.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bdeb2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdeb2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bdeb2.dir/CheckIncludeFile.c.o  -o cmTC_bdeb2 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eeccb/fast && /usr/bin/make  -f CMakeFiles/cmTC_eeccb.dir/build.make CMakeFiles/cmTC_eeccb.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eeccb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eeccb.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eeccb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeccb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eeccb.dir/CheckIncludeFile.c.o  -o cmTC_eeccb 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48d57/fast && /usr/bin/make  -f CMakeFiles/cmTC_48d57.dir/build.make CMakeFiles/cmTC_48d57.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48d57.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_48d57.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48d57
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48d57.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_48d57.dir/CheckIncludeFile.c.o  -o cmTC_48d57 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31f7c/fast && /usr/bin/make  -f CMakeFiles/cmTC_31f7c.dir/build.make CMakeFiles/cmTC_31f7c.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31f7c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_31f7c.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_31f7c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31f7c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_31f7c.dir/CheckIncludeFile.c.o  -o cmTC_31f7c 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab872/fast && /usr/bin/make  -f CMakeFiles/cmTC_ab872.dir/build.make CMakeFiles/cmTC_ab872.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab872.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ab872.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ab872
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab872.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ab872.dir/CheckIncludeFile.c.o  -o cmTC_ab872 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d069c/fast && /usr/bin/make  -f CMakeFiles/cmTC_d069c.dir/build.make CMakeFiles/cmTC_d069c.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d069c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d069c.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d069c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d069c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d069c.dir/CheckIncludeFile.c.o  -o cmTC_d069c 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0c5e9/fast && /usr/bin/make  -f CMakeFiles/cmTC_0c5e9.dir/build.make CMakeFiles/cmTC_0c5e9.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c5e9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0c5e9.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0c5e9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c5e9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0c5e9.dir/CheckIncludeFile.c.o  -o cmTC_0c5e9 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_789df/fast && /usr/bin/make  -f CMakeFiles/cmTC_789df.dir/build.make CMakeFiles/cmTC_789df.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_789df.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_789df.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_789df
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_789df.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_789df.dir/CheckIncludeFile.c.o  -o cmTC_789df 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef626/fast && /usr/bin/make  -f CMakeFiles/cmTC_ef626.dir/build.make CMakeFiles/cmTC_ef626.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef626.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef626.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef626
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef626.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ef626.dir/CheckIncludeFile.c.o  -o cmTC_ef626 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_24457/fast && /usr/bin/make  -f CMakeFiles/cmTC_24457.dir/build.make CMakeFiles/cmTC_24457.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24457.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_24457.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_24457
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24457.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_24457.dir/CheckIncludeFile.c.o  -o cmTC_24457 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae950/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae950.dir/build.make CMakeFiles/cmTC_ae950.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae950.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ae950.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ae950
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae950.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ae950.dir/CheckIncludeFile.c.o  -o cmTC_ae950 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93ac3/fast && /usr/bin/make  -f CMakeFiles/cmTC_93ac3.dir/build.make CMakeFiles/cmTC_93ac3.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93ac3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_93ac3.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_93ac3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93ac3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_93ac3.dir/CheckIncludeFile.c.o  -o cmTC_93ac3 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_443fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_443fb.dir/build.make CMakeFiles/cmTC_443fb.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_443fb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_443fb.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_443fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_443fb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_443fb.dir/CheckIncludeFile.c.o  -o cmTC_443fb 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b2775/fast && /usr/bin/make  -f CMakeFiles/cmTC_b2775.dir/build.make CMakeFiles/cmTC_b2775.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2775.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b2775.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b2775
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2775.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b2775.dir/CheckIncludeFile.c.o  -o cmTC_b2775 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6d0f/fast && /usr/bin/make  -f CMakeFiles/cmTC_d6d0f.dir/build.make CMakeFiles/cmTC_d6d0f.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6d0f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d6d0f.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d6d0f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6d0f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d6d0f.dir/CheckIncludeFile.c.o  -o cmTC_d6d0f 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6e9a/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6e9a.dir/build.make CMakeFiles/cmTC_b6e9a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6e9a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b6e9a.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b6e9a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e9a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b6e9a.dir/CheckSymbolExists.c.o  -o cmTC_b6e9a  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c71ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_c71ea.dir/build.make CMakeFiles/cmTC_c71ea.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c71ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c71ea.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c71ea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c71ea.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c71ea.dir/CheckSymbolExists.c.o  -o cmTC_c71ea  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cdcfd/fast && /usr/bin/make  -f CMakeFiles/cmTC_cdcfd.dir/build.make CMakeFiles/cmTC_cdcfd.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdcfd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cdcfd.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cdcfd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdcfd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cdcfd.dir/CheckFunctionExists.c.o  -o cmTC_cdcfd  -lpthread -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38184/fast && /usr/bin/make  -f CMakeFiles/cmTC_38184.dir/build.make CMakeFiles/cmTC_38184.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38184.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTC_38184.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38184
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38184.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific    -rdynamic CMakeFiles/cmTC_38184.dir/CheckFunctionExists.c.o  -o cmTC_38184  -lpthread -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99a4a/fast && /usr/bin/make  -f CMakeFiles/cmTC_99a4a.dir/build.make CMakeFiles/cmTC_99a4a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99a4a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTC_99a4a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_99a4a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a4a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init    -rdynamic CMakeFiles/cmTC_99a4a.dir/CheckFunctionExists.c.o  -o cmTC_99a4a  -lpthread -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_41aa3/fast && /usr/bin/make  -f CMakeFiles/cmTC_41aa3.dir/build.make CMakeFiles/cmTC_41aa3.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41aa3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTC_41aa3.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_41aa3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41aa3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock    -rdynamic CMakeFiles/cmTC_41aa3.dir/CheckFunctionExists.c.o  -o cmTC_41aa3  -lpthread -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75962/fast && /usr/bin/make  -f CMakeFiles/cmTC_75962.dir/build.make CMakeFiles/cmTC_75962.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75962.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_75962.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75962
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75962.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen    -rdynamic CMakeFiles/cmTC_75962.dir/CheckFunctionExists.c.o  -o cmTC_75962  -ldl -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83ae9/fast && /usr/bin/make  -f CMakeFiles/cmTC_83ae9.dir/build.make CMakeFiles/cmTC_83ae9.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83ae9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_83ae9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83ae9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83ae9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_83ae9.dir/CheckFunctionExists.c.o  -o cmTC_83ae9  -lrt -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ab2d/fast && /usr/bin/make  -f CMakeFiles/cmTC_7ab2d.dir/build.make CMakeFiles/cmTC_7ab2d.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ab2d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTC_7ab2d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ab2d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ab2d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2    -rdynamic CMakeFiles/cmTC_7ab2d.dir/CheckFunctionExists.c.o  -o cmTC_7ab2d  -lz -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1889f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1889f.dir/build.make CMakeFiles/cmTC_1889f.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1889f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_1889f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1889f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1889f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm    -rdynamic CMakeFiles/cmTC_1889f.dir/CheckFunctionExists.c.o  -o cmTC_1889f  -ltinfo -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ae23/fast && /usr/bin/make  -f CMakeFiles/cmTC_7ae23.dir/build.make CMakeFiles/cmTC_7ae23.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ae23.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7ae23.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7ae23
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ae23.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7ae23.dir/CheckSymbolExists.c.o  -o cmTC_7ae23  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72111/fast && /usr/bin/make  -f CMakeFiles/cmTC_72111.dir/build.make CMakeFiles/cmTC_72111.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72111.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_72111.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_72111
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72111.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_72111.dir/CheckSymbolExists.c.o  -o cmTC_72111  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_250ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_250ea.dir/build.make CMakeFiles/cmTC_250ea.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_250ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_250ea.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_250ea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_250ea.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_250ea.dir/CheckSymbolExists.c.o  -o cmTC_250ea  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91565/fast && /usr/bin/make  -f CMakeFiles/cmTC_91565.dir/build.make CMakeFiles/cmTC_91565.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91565.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_91565.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_91565
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91565.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_91565.dir/CheckSymbolExists.c.o  -o cmTC_91565  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a98a/fast && /usr/bin/make  -f CMakeFiles/cmTC_8a98a.dir/build.make CMakeFiles/cmTC_8a98a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a98a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8a98a.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8a98a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a98a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8a98a.dir/CheckSymbolExists.c.o  -o cmTC_8a98a  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26f6f/fast && /usr/bin/make  -f CMakeFiles/cmTC_26f6f.dir/build.make CMakeFiles/cmTC_26f6f.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26f6f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_26f6f.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_26f6f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26f6f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_26f6f.dir/CheckSymbolExists.c.o  -o cmTC_26f6f  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a8d28/fast && /usr/bin/make  -f CMakeFiles/cmTC_a8d28.dir/build.make CMakeFiles/cmTC_a8d28.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8d28.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a8d28.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a8d28
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8d28.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8d28.dir/CheckSymbolExists.c.o  -o cmTC_a8d28  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceilf exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86f5d/fast && /usr/bin/make  -f CMakeFiles/cmTC_86f5d.dir/build.make CMakeFiles/cmTC_86f5d.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86f5d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_86f5d.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_86f5d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86f5d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_86f5d.dir/CheckSymbolExists.c.o  -o cmTC_86f5d  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floorf exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64301/fast && /usr/bin/make  -f CMakeFiles/cmTC_64301.dir/build.make CMakeFiles/cmTC_64301.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64301.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_64301.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_64301
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64301.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_64301.dir/CheckSymbolExists.c.o  -o cmTC_64301  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmodf exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df319/fast && /usr/bin/make  -f CMakeFiles/cmTC_df319.dir/build.make CMakeFiles/cmTC_df319.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df319.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_df319.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_df319
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df319.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_df319.dir/CheckSymbolExists.c.o  -o cmTC_df319  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_afb3e/fast && /usr/bin/make  -f CMakeFiles/cmTC_afb3e.dir/build.make CMakeFiles/cmTC_afb3e.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afb3e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_afb3e.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_afb3e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afb3e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_afb3e.dir/CheckSymbolExists.c.o  -o cmTC_afb3e  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log2 exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6959e/fast && /usr/bin/make  -f CMakeFiles/cmTC_6959e.dir/build.make CMakeFiles/cmTC_6959e.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6959e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6959e.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6959e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6959e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6959e.dir/CheckSymbolExists.c.o  -o cmTC_6959e  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log2
+  return ((int*)(&log2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10 exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8045c/fast && /usr/bin/make  -f CMakeFiles/cmTC_8045c.dir/build.make CMakeFiles/cmTC_8045c.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8045c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8045c.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8045c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8045c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8045c.dir/CheckSymbolExists.c.o  -o cmTC_8045c  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3971b/fast && /usr/bin/make  -f CMakeFiles/cmTC_3971b.dir/build.make CMakeFiles/cmTC_3971b.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3971b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3971b.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3971b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3971b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3971b.dir/CheckSymbolExists.c.o  -o cmTC_3971b  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp2 exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eb060/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb060.dir/build.make CMakeFiles/cmTC_eb060.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb060.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eb060.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eb060
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb060.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eb060.dir/CheckSymbolExists.c.o  -o cmTC_eb060  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp2
+  return ((int*)(&exp2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3025d/fast && /usr/bin/make  -f CMakeFiles/cmTC_3025d.dir/build.make CMakeFiles/cmTC_3025d.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3025d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3025d.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3025d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3025d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3025d.dir/CheckSymbolExists.c.o  -o cmTC_3025d  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ac9b/fast && /usr/bin/make  -f CMakeFiles/cmTC_6ac9b.dir/build.make CMakeFiles/cmTC_6ac9b.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ac9b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6ac9b.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6ac9b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac9b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6ac9b.dir/CheckSymbolExists.c.o  -o cmTC_6ac9b  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the writev exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1435/fast && /usr/bin/make  -f CMakeFiles/cmTC_e1435.dir/build.make CMakeFiles/cmTC_e1435.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1435.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e1435.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e1435
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1435.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e1435.dir/CheckSymbolExists.c.o  -o cmTC_e1435  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nearbyintf exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7de2/fast && /usr/bin/make  -f CMakeFiles/cmTC_b7de2.dir/build.make CMakeFiles/cmTC_b7de2.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7de2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b7de2.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b7de2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7de2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b7de2.dir/CheckSymbolExists.c.o  -o cmTC_b7de2  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nearbyintf
+  return ((int*)(&nearbyintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca9b1/fast && /usr/bin/make  -f CMakeFiles/cmTC_ca9b1.dir/build.make CMakeFiles/cmTC_ca9b1.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca9b1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ca9b1.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ca9b1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca9b1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ca9b1.dir/CheckSymbolExists.c.o  -o cmTC_ca9b1  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ca39/fast && /usr/bin/make  -f CMakeFiles/cmTC_5ca39.dir/build.make CMakeFiles/cmTC_5ca39.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ca39.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5ca39.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5ca39
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ca39.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5ca39.dir/CheckSymbolExists.c.o  -o cmTC_5ca39  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d651f/fast && /usr/bin/make  -f CMakeFiles/cmTC_d651f.dir/build.make CMakeFiles/cmTC_d651f.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d651f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d651f.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d651f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d651f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d651f.dir/CheckSymbolExists.c.o  -o cmTC_d651f  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mktemp exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a7fd/fast && /usr/bin/make  -f CMakeFiles/cmTC_3a7fd.dir/build.make CMakeFiles/cmTC_3a7fd.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a7fd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3a7fd.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3a7fd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a7fd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3a7fd.dir/CheckSymbolExists.c.o  -o cmTC_3a7fd  -lm 
+CMakeFiles/cmTC_3a7fd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the closedir exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7fa7a/fast && /usr/bin/make  -f CMakeFiles/cmTC_7fa7a.dir/build.make CMakeFiles/cmTC_7fa7a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fa7a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7fa7a.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7fa7a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fa7a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7fa7a.dir/CheckSymbolExists.c.o  -o cmTC_7fa7a  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closedir
+  return ((int*)(&closedir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the opendir exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09485/fast && /usr/bin/make  -f CMakeFiles/cmTC_09485.dir/build.make CMakeFiles/cmTC_09485.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09485.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_09485.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_09485
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09485.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_09485.dir/CheckSymbolExists.c.o  -o cmTC_09485  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef opendir
+  return ((int*)(&opendir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the readdir exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_911e2/fast && /usr/bin/make  -f CMakeFiles/cmTC_911e2.dir/build.make CMakeFiles/cmTC_911e2.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_911e2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_911e2.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_911e2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_911e2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_911e2.dir/CheckSymbolExists.c.o  -o cmTC_911e2  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readdir
+  return ((int*)(&readdir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getcwd exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88246/fast && /usr/bin/make  -f CMakeFiles/cmTC_88246.dir/build.make CMakeFiles/cmTC_88246.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88246.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88246.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_88246
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88246.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_88246.dir/CheckSymbolExists.c.o  -o cmTC_88246  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6208c/fast && /usr/bin/make  -f CMakeFiles/cmTC_6208c.dir/build.make CMakeFiles/cmTC_6208c.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6208c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6208c.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6208c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6208c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6208c.dir/CheckSymbolExists.c.o  -o cmTC_6208c  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09b2b/fast && /usr/bin/make  -f CMakeFiles/cmTC_09b2b.dir/build.make CMakeFiles/cmTC_09b2b.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09b2b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_09b2b.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_09b2b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b2b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_09b2b.dir/CheckSymbolExists.c.o  -o cmTC_09b2b  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_87199/fast && /usr/bin/make  -f CMakeFiles/cmTC_87199.dir/build.make CMakeFiles/cmTC_87199.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87199.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_87199.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_87199
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87199.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_87199.dir/CheckSymbolExists.c.o  -o cmTC_87199  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd851/fast && /usr/bin/make  -f CMakeFiles/cmTC_cd851.dir/build.make CMakeFiles/cmTC_cd851.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd851.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cd851.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cd851
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd851.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cd851.dir/CheckSymbolExists.c.o  -o cmTC_cd851  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89174/fast && /usr/bin/make  -f CMakeFiles/cmTC_89174.dir/build.make CMakeFiles/cmTC_89174.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89174.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_89174.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_89174
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89174.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_89174.dir/CheckSymbolExists.c.o  -o cmTC_89174  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c8f6/fast && /usr/bin/make  -f CMakeFiles/cmTC_7c8f6.dir/build.make CMakeFiles/cmTC_7c8f6.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c8f6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7c8f6.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7c8f6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c8f6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7c8f6.dir/CheckSymbolExists.c.o  -o cmTC_7c8f6  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the srand48 exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75815/fast && /usr/bin/make  -f CMakeFiles/cmTC_75815.dir/build.make CMakeFiles/cmTC_75815.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75815.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_75815.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_75815
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75815.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_75815.dir/CheckSymbolExists.c.o  -o cmTC_75815  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73e65/fast && /usr/bin/make  -f CMakeFiles/cmTC_73e65.dir/build.make CMakeFiles/cmTC_73e65.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73e65.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_73e65.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_73e65
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e65.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_73e65.dir/CheckSymbolExists.c.o  -o cmTC_73e65  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the drand48 exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10fb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_10fb7.dir/build.make CMakeFiles/cmTC_10fb7.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10fb7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_10fb7.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_10fb7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10fb7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_10fb7.dir/CheckSymbolExists.c.o  -o cmTC_10fb7  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef drand48
+  return ((int*)(&drand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7732c/fast && /usr/bin/make  -f CMakeFiles/cmTC_7732c.dir/build.make CMakeFiles/cmTC_7732c.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7732c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7732c.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7732c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7732c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7732c.dir/CheckSymbolExists.c.o  -o cmTC_7732c  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoq exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b076e/fast && /usr/bin/make  -f CMakeFiles/cmTC_b076e.dir/build.make CMakeFiles/cmTC_b076e.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b076e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b076e.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b076e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b076e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b076e.dir/CheckSymbolExists.c.o  -o cmTC_b076e  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoq
+  return ((int*)(&strtoq))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c8df1/fast && /usr/bin/make  -f CMakeFiles/cmTC_c8df1.dir/build.make CMakeFiles/cmTC_c8df1.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8df1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8df1.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c8df1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8df1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c8df1.dir/CheckSymbolExists.c.o  -o cmTC_c8df1  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3c19/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3c19.dir/build.make CMakeFiles/cmTC_b3c19.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3c19.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b3c19.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b3c19
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c19.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b3c19.dir/CheckSymbolExists.c.o  -o cmTC_b3c19  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5aa53/fast && /usr/bin/make  -f CMakeFiles/cmTC_5aa53.dir/build.make CMakeFiles/cmTC_5aa53.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aa53.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5aa53.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5aa53
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa53.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5aa53.dir/CheckSymbolExists.c.o  -o cmTC_5aa53  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlerror exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00798/fast && /usr/bin/make  -f CMakeFiles/cmTC_00798.dir/build.make CMakeFiles/cmTC_00798.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00798.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_00798.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_00798
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00798.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_00798.dir/CheckSymbolExists.c.o  -o cmTC_00798  -lm -ldl 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlerror
+  return ((int*)(&dlerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e57c3/fast && /usr/bin/make  -f CMakeFiles/cmTC_e57c3.dir/build.make CMakeFiles/cmTC_e57c3.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e57c3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e57c3.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e57c3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e57c3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e57c3.dir/CheckSymbolExists.c.o  -o cmTC_e57c3  -lm -ldl 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5dfc/fast && /usr/bin/make  -f CMakeFiles/cmTC_b5dfc.dir/build.make CMakeFiles/cmTC_b5dfc.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5dfc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b5dfc.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b5dfc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5dfc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b5dfc.dir/CheckSymbolExists.c.o  -o cmTC_b5dfc  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53d86/fast && /usr/bin/make  -f CMakeFiles/cmTC_53d86.dir/build.make CMakeFiles/cmTC_53d86.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53d86.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_INT64_T   -o CMakeFiles/cmTC_53d86.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_53d86
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d86.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_INT64_T    -rdynamic CMakeFiles/cmTC_53d86.dir/src.cxx.o  -o cmTC_53d86  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2085/fast && /usr/bin/make  -f CMakeFiles/cmTC_f2085.dir/build.make CMakeFiles/cmTC_f2085.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2085.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_UINT64_T   -o CMakeFiles/cmTC_f2085.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f2085
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2085.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_UINT64_T    -rdynamic CMakeFiles/cmTC_f2085.dir/src.cxx.o  -o cmTC_f2085  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_551d4/fast && /usr/bin/make  -f CMakeFiles/cmTC_551d4.dir/build.make CMakeFiles/cmTC_551d4.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_551d4.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_U_INT64_T   -o CMakeFiles/cmTC_551d4.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_551d4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_551d4.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_U_INT64_T    -rdynamic CMakeFiles/cmTC_551d4.dir/src.cxx.o  -o cmTC_551d4  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d6ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_4d6ea.dir/build.make CMakeFiles/cmTC_4d6ea.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d6ea.dir/src.cxx.o
+/usr/bin/c++    -DLLVM_HAS_ATOMICS   -o CMakeFiles/cmTC_4d6ea.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4d6ea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d6ea.dir/link.txt --verbose=1
+/usr/bin/c++   -DLLVM_HAS_ATOMICS    -rdynamic CMakeFiles/cmTC_4d6ea.dir/src.cxx.o  -o cmTC_4d6ea  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_NO_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_20407/fast && /usr/bin/make  -f CMakeFiles/cmTC_20407.dir/build.make CMakeFiles/cmTC_20407.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20407.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG   -Wno-variadic-macros -o CMakeFiles/cmTC_20407.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_20407
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20407.dir/link.txt --verbose=1
+/usr/bin/c++   -DSUPPORTS_NO_VARIADIC_MACROS_FLAG    -rdynamic CMakeFiles/cmTC_20407.dir/src.cxx.o  -o cmTC_20407  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_32ab7/fast && /usr/bin/make  -f CMakeFiles/cmTC_32ab7.dir/build.make CMakeFiles/cmTC_32ab7.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32ab7.dir/src.cxx.o
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTC_32ab7.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32ab7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ab7.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_MAYBE_UNINITIALIZED    -rdynamic CMakeFiles/cmTC_32ab7.dir/src.cxx.o  -o cmTC_32ab7  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FLAG succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb39b/fast && /usr/bin/make  -f CMakeFiles/cmTC_bb39b.dir/build.make CMakeFiles/cmTC_bb39b.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb39b.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FLAG   -fPIC -o CMakeFiles/cmTC_bb39b.dir/src.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bb39b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb39b.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_SUPPORTS_FLAG    -rdynamic CMakeFiles/cmTC_bb39b.dir/src.c.o  -o cmTC_bb39b  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FLAG succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6128a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6128a.dir/build.make CMakeFiles/cmTC_6128a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6128a.dir/src.cxx.o
+/usr/bin/c++    -DCXX_SUPPORTS_FLAG   -fPIC -o CMakeFiles/cmTC_6128a.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6128a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6128a.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_SUPPORTS_FLAG    -rdynamic CMakeFiles/cmTC_6128a.dir/src.cxx.o  -o cmTC_6128a  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c36b7/fast && /usr/bin/make  -f CMakeFiles/cmTC_c36b7.dir/build.make CMakeFiles/cmTC_c36b7.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c36b7.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_c36b7.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c36b7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c36b7.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    -rdynamic CMakeFiles/cmTC_c36b7.dir/src.cxx.o  -o cmTC_c36b7  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1944/fast && /usr/bin/make  -f CMakeFiles/cmTC_e1944.dir/build.make CMakeFiles/cmTC_e1944.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1944.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG   -Wmissing-field-initializers -o CMakeFiles/cmTC_e1944.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e1944
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1944.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG    -rdynamic CMakeFiles/cmTC_e1944.dir/src.cxx.o  -o cmTC_e1944  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86abd/fast && /usr/bin/make  -f CMakeFiles/cmTC_86abd.dir/build.make CMakeFiles/cmTC_86abd.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86abd.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -DCXX_SUPPORTS_NON_VIRTUAL_DTOR_FLAG   -Werror -Wnon-virtual-dtor -o CMakeFiles/cmTC_86abd.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_86abd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86abd.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -DCXX_SUPPORTS_NON_VIRTUAL_DTOR_FLAG    -rdynamic CMakeFiles/cmTC_86abd.dir/src.cxx.o  -o cmTC_86abd  -lm 
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,361 @@
+// GAUSSIAN BLUR
+__global__ void gaussian_blur( const unsigned char *image, const float* G, const int W,const int H,const int size,  unsigned char* newImg)
+{
+unsigned int x, y, imgLineSize;
+float value;
+int i, xOff, yOff, center;
+
+i = blockIdx.x * blockDim.x + threadIdx.x;
+
+imgLineSize = W * 4;
+center = size / 2;
+
+if(i >= imgLineSize * (size-center) + center * 4 && i <  W * H * 4 - imgLineSize * (size-center) - center * 4)
+{
+value=0;
+for(y = 0; y < size; y++)
+{
+yOff = imgLineSize * (y-center);
+for(x = 0; x < size; x++)
+{
+xOff = 4 * (x-center);
+value += G[y * size + x] * image[i + xOff + yOff];
+}
+}
+newImg[i] = value;
+}
+
+else
+{
+newImg[i] = image[i];
+}
+}
+
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <cuda.h>
+#include <cuda_runtime.h>
+
+
+
+
+#include <iostream>
+#include <string>
+//#include "lodepng.h"
+#include <math.h>
+#include <ctime>
+
+#include <fstream>
+#include <vector>
+
+#define DIM 5
+
+using namespace std;
+
+std::vector<unsigned char> decodeOneStep(const char* filename)
+{
+std::vector<unsigned char> image;
+unsigned width, height;
+lodepng::decode(image, width, height, filename);
+return image;
+}
+
+vector<double> create_convolution_matrix(double sigma){
+/*
+CREATES CONVOLUTION MATRIX FOR GAUSSIAN BLUR,
+GIVEN SIGMA AND DIMENTION OF THE DESIRED FILTER.
+*/
+
+int W = DIM;
+double kernel[DIM][DIM];
+vector<double> result;
+double mean = W / 2;
+double sum = 0.0;
+for (int x = 0; x < W; ++x)
+for (int y = 0; y < W; ++y) {
+kernel[x][y] =
+exp(-0.5 * (pow((x - mean) / sigma, 2.0) +
+pow((y - mean) / sigma, 2.0))) /
+(2 * 3.14159 * sigma * sigma);
+
+// ACCUMULATE VALUES
+sum += kernel[x][y];
+}
+
+// NORMALIZE
+for (int x = 0; x < W; ++x)
+for (int y = 0; y < W; ++y)
+kernel[x][y] /= sum;
+
+for (int x = 0; x < W; ++x) {
+for (int y = 0; y < W; ++y) {
+result.push_back(kernel[x][y]);
+}
+}
+return result;
+}
+
+void encodeOneStep(const char* filename, std::vector<unsigned char>& image, unsigned width, unsigned height)
+{
+// ENCODE IMAGE
+lodepng::encode(filename, image, width, height);
+
+}
+
+std::vector<unsigned char> paint_pixel_white(std::vector<unsigned char> image, int x){
+/*
+HELPFUL FOR DEBUGGING
+param :image:	- image saved in vector
+param :x:		- pixel position to paint white
+Paints white pixel in the image.
+Returns modified image vector.
+*/
+std::vector<unsigned char> nimage = image;
+int ref = x * 4;
+
+for (int i = 0; i < 3; ++i){
+nimage[ref + i] = 255;
+}
+return nimage;
+}
+
+
+int main(){
+
+//// CAPTURE TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+clock_t begin = clock();
+
+// VARIABLES
+//char * filename = "input1.png";
+//char * filename_out = "output1.png";
+//int width = 678;
+//int height = 353;
+//char * filename = "input2.png";
+//char * filename_out = "output2.png";
+//int width = 3000;
+//int height = 1453;
+char * filename = "lena_sp_noise.png";
+char * filename_out = "output3.png";
+int width = 9000;
+int height = 3500;
+
+// GAUSSIAN VARIABLES
+double gauss_sigma = 1;
+int gauss_filter_dimension = DIM;
+
+// SHOW SETTINGS
+cout << "Input file: " << filename << endl;
+cout << "Dimensions: " << width << " x " << height << endl;
+cout << "Output file: " << filename_out << endl;
+cout << "Gaussian sigma: " << gauss_sigma << endl;
+cout << "Gaussian filter dimension: " << gauss_filter_dimension << endl;
+
+
+// ORIGINAL IMAGE
+std::vector<unsigned char> image = decodeOneStep(filename);
+
+// IMAGE AFTER PROCESSING
+std::vector<unsigned char> nimage = image;
+
+// CREATE CONVOLUTION MATRIX
+vector<double> matrix = create_convolution_matrix(gauss_sigma);
+
+// CONVOLUTION MATRIX TO NORMAL ARRAY
+float flat_matrix[DIM*DIM];
+for (int i = 0; i < matrix.size(); ++i){
+flat_matrix[i] = matrix.at(i);
+}
+
+// IMAGE TO NORMAL ARRAY
+unsigned char * flat_image = new unsigned char[width * height * 4];
+for (int i = 0; i < image.size(); ++i){
+flat_image[i] = image.at(i);
+}
+
+// BLURRED IMAGE ARRAY
+unsigned char * flat_image_blurred = new unsigned char[width * height * 4];
+
+
+//
+// O P E N   C L   B E G I N
+//
+
+//// CAPTURE TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+clock_t begin_pt = clock();
+
+// GETTING INFO
+
+
+
+
+
+const cl_device_type kDeviceType = CL_DEVICE_TYPE_GPU; // WE NEED GPU
+
+//
+// Loading Kernell
+//
+ifstream cl_file("gauss.cl");
+/*	if (cl_file.fail())
+{
+cout << "Error opening kernel file!" << endl;
+std::system("PAUSE");
+return 1;
+}*/
+string kernel_string(istreambuf_iterator<char>(cl_file), (istreambuf_iterator<char>()));
+const char *src = kernel_string.c_str();
+
+//// CAPTURE PREP TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+clock_t prep_time = clock();
+
+// ACQUIRING PLATFORM
+
+
+// ACQUIRING GPU DEVICE
+
+
+// CREATING CONTEXT
+
+
+
+// CREATE COMMAND QUEUE
+
+
+
+
+// CREATING BUFFER FOR ORIGINAL IMAGE
+/*CU2CL Unsupported -- Unsupported CUDA call: clCreateBuffer*/
+void* gpuImg;
+cudaMalloc((void**)&gpuImg, width*height * 4);
+
+// CREATING BUFFER FOR CONVOLUTION MATRIX
+/*CU2CL Unsupported -- Unsupported CUDA call: clCreateBuffer*/
+void* gpuGaussian;
+cudaMalloc((void**)&gpuGaussian, DIM*DIM * 4);
+
+// CREATING BUFFER FOR BLURRED IMAGE
+/*CU2CL Unsupported -- Unsupported CUDA call: clCreateBuffer*/
+void* gpuNewImg;
+cudaMalloc((void**)&gpuNewImg, width*height * 4);
+
+//// CAPTURE DATA TRANSFER TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+clock_t data_transfer = clock();
+
+// COPY IMAGE ARRAY TO MEM BUFFER
+cudaMemcpy(gpuImg, flat_image, width*height * 4,cudaMemcpyHostToDevice);
+
+// COPY CONVOLUTION MATRIX TO MEM BUFFER
+cudaMemcpy(gpuGaussian, flat_matrix, DIM*DIM * 4,cudaMemcpyHostToDevice);
+
+//// CHECK DATA TRANSFER TIME
+//	std::cout << "[NFO] Time spent transfering data : " << double(clock() - data_transfer) / CLOCKS_PER_SEC << endl;
+
+// CREATE PROGRAM FROM GIVEN KERNEL SOURCE
+
+
+//free(src);
+
+// BUILD PROGRAM FOR DESIGNATED DEVICE
+
+
+// CREATE KERNEL.
+
+
+
+// SETTING IMAGE ARG
+
+
+// SETTING GAUSSIAN MATRIX ARG
+
+
+// SETTING IMAGE WIDTH ARG
+(//;
+
+// SETTING IMAGE HEIGHT ARG
+
+
+// SETTING GAUSSIAN BLUR SIZE ARG
+
+
+// SETTING BUFFER FOR BLURRED IMAGE
+
+
+
+//// CHECK PREP TIME
+//	std::cout << "[NFO] Time spent on preparation : " << double(clock() - prep_time) / CLOCKS_PER_SEC << endl;
+
+// ENQUEUE THE KERNELL
+size_t global_item_size = width*height * 4; // DIMENTION OF IMAGE BUFFER
+size_t local_item_size = 64;
+
+//// CAPTURE TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+clock_t blurring_begin = clock();
+
+cl_event event;
+gaussian_blur<<<global_item_size,local_item_size>>>(gpuImg,gpuGaussian,width,height,gauss_filter_dimension,gpuNewImg);
+/*CU2CL Unsupported -- Unsupported CUDA call: clWaitForEvents*/
+clWaitForEvents(1, &event);
+
+// READ MEM BUFFER WITH NEW IMAGE
+// MOVE DATA FROM DEVICE TO PREPARED BUFFER
+cudaMemcpy(flat_image_blurred, gpuNewImg, width*height * 4,cudaMemcpyDeviceToHost);
+
+//// CHECK BLURING TIME
+//	std::cout << "[NFO] Time spent on blurring : " << double(clock() - blurring_begin) / CLOCKS_PER_SEC << endl;
+
+//// CAPTURE TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+clock_t cleanup_time = clock();
+
+// CLEANNING UP
+
+
+cudaDeviceSynchronize();
+
+
+cudaFree(gpuImg);
+cudaFree(gpuGaussian);
+cudaFree(gpuNewImg);
+
+
+
+//// CHECK CLEANUP TIME
+//	std::cout << "[NFO] Time spent on cleanup : " << double(clock() - cleanup_time) / CLOCKS_PER_SEC << endl;
+
+//
+// O P E N   C L   E N D
+//
+
+//// CHECK FULL TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+std::cout << "[NFO] Full time spent by OpenCL part: " << double(clock() - begin_pt) / CLOCKS_PER_SEC << endl;
+
+//// CAPTURE TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+clock_t convertion_and_saving = clock();
+
+// CONVERT ARRAY TO IMAGE VECTOR
+for (int i = 0; i < width*height * 4; ++i){
+nimage[i] = flat_image_blurred[i];
+}
+
+// SAVE IMAGE
+encodeOneStep(filename_out, nimage, width, height);
+
+//// CHECK CONVERSION AND SAVING TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+std::cout << "[NFO] Time spent on conversion and saving: " << double(clock() - convertion_and_saving) / CLOCKS_PER_SEC << endl;
+
+//// CHECK FULL TIME
+/*CU2CL Unsupported -- Unsupported CUDA call: clock*/
+std::cout << "[NFO] Total time spent: " << double(clock() - begin) / CLOCKS_PER_SEC << endl;
+
+system("PAUSE");
+return 0;
+}
+

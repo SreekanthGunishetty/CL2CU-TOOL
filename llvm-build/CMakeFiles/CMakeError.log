@@ -1,0 +1,377 @@
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7dc06/fast && /usr/bin/make  -f CMakeFiles/cmTC_7dc06.dir/build.make CMakeFiles/cmTC_7dc06.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7dc06.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7dc06.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+                           ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7dc06.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_7dc06/fast] Error 2
+
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2250b/fast && /usr/bin/make  -f CMakeFiles/cmTC_2250b.dir/build.make CMakeFiles/cmTC_2250b.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2250b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2250b.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+                  ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2250b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_2250b/fast] Error 2
+
+
+
+Determining if the include file sanitizer/msan_interface.h exists failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e04e/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e04e.dir/build.make CMakeFiles/cmTC_5e04e.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e04e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5e04e.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:38: fatal error: sanitizer/msan_interface.h: No such file or directory
+ #include <sanitizer/msan_interface.h>
+                                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_5e04e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_5e04e/fast] Error 2
+
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e232/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e232.dir/build.make CMakeFiles/cmTC_4e232.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e232.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4e232.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_4e232.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_4e232/fast] Error 2
+
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e4bec/fast && /usr/bin/make  -f CMakeFiles/cmTC_e4bec.dir/build.make CMakeFiles/cmTC_e4bec.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4bec.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e4bec.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:31: fatal error: valgrind/valgrind.h: No such file or directory
+ #include <valgrind/valgrind.h>
+                               ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e4bec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_e4bec/fast] Error 2
+
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6744/fast && /usr/bin/make  -f CMakeFiles/cmTC_f6744.dir/build.make CMakeFiles/cmTC_f6744.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6744.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f6744.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: mach/mach.h: No such file or directory
+ #include <mach/mach.h>
+                       ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_f6744.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_f6744/fast] Error 2
+
+
+
+Determining if the include file mach-o/dyld.h exists failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2bb5c/fast && /usr/bin/make  -f CMakeFiles/cmTC_2bb5c.dir/build.make CMakeFiles/cmTC_2bb5c.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bb5c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2bb5c.dir/CheckIncludeFile.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: mach-o/dyld.h: No such file or directory
+ #include <mach-o/dyld.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2bb5c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_2bb5c/fast] Error 2
+
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_720eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_720eb.dir/build.make CMakeFiles/cmTC_720eb.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_720eb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_720eb.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function)
+   return ((int*)(&arc4random))[argc];
+                   ^
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_720eb.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_720eb/fast] Error 2
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70624/fast && /usr/bin/make  -f CMakeFiles/cmTC_70624.dir/build.make CMakeFiles/cmTC_70624.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70624.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_70624.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:17: fatal error: cmath: No such file or directory
+ #include <cmath>
+                 ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_70624.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_70624/fast] Error 2
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the finite exist failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c118d/fast && /usr/bin/make  -f CMakeFiles/cmTC_c118d.dir/build.make CMakeFiles/cmTC_c118d.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c118d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c118d.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_c118d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_c118d/fast] Error 2
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ieeefp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1fa47/fast && /usr/bin/make  -f CMakeFiles/cmTC_1fa47.dir/build.make CMakeFiles/cmTC_1fa47.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fa47.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1fa47.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:17: fatal error: cmath: No such file or directory
+ #include <cmath>
+                 ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1fa47.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_1fa47/fast] Error 2
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp10 exist failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d19a/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d19a.dir/build.make CMakeFiles/cmTC_9d19a.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d19a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9d19a.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘exp10’ undeclared (first use in this function)
+   return ((int*)(&exp10))[argc];
+                   ^
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_9d19a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_9d19a/fast] Error 2
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp10
+  return ((int*)(&exp10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_abc02/fast && /usr/bin/make  -f CMakeFiles/cmTC_abc02.dir/build.make CMakeFiles/cmTC_abc02.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abc02.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_abc02.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:27: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+                           ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_abc02.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_abc02/fast] Error 2
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89db5/fast && /usr/bin/make  -f CMakeFiles/cmTC_89db5.dir/build.make CMakeFiles/cmTC_89db5.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89db5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_89db5.dir/CheckSymbolExists.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strerror_s’ undeclared (first use in this function)
+   return ((int*)(&strerror_s))[argc];
+                   ^
+/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_89db5.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_89db5/fast] Error 2
+
+
+File /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c14d/fast && /usr/bin/make  -f CMakeFiles/cmTC_8c14d.dir/build.make CMakeFiles/cmTC_8c14d.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c14d.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_8c14d.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wcovered-switch-default'
+make[1]: *** [CMakeFiles/cmTC_8c14d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_8c14d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9fd73/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fd73.dir/build.make CMakeFiles/cmTC_9fd73.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fd73.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_9fd73.dir/src.c.o   -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wcovered-switch-default'
+make[1]: *** [CMakeFiles/cmTC_9fd73.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_9fd73/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG failed with the following output:
+Change Dir: /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e95b/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e95b.dir/build.make CMakeFiles/cmTC_5e95b.dir/build
+make[1]: Entering directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e95b.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -fno-common -Woverloaded-virtual -Wcast-qual -fno-strict-aliasing -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG   -Werror -Wnested-anon-types -o CMakeFiles/cmTC_5e95b.dir/src.cxx.o -c /home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wnested-anon-types'
+make[1]: *** [CMakeFiles/cmTC_5e95b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/anonix/new_tool/CL2CU/CU2CL/llvm-build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_5e95b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
